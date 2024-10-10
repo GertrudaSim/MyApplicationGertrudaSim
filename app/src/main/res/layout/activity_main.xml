@@ -28,9 +28,26 @@
         android:layout_marginBottom="50dp"
         android:backgroundTint="@color/material_dynamic_primary50"
         android:text="Button"
+        android:textColorLink="#009688"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonChangeColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="215dp"
+        android:text="Button"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColorLink="#009688"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
